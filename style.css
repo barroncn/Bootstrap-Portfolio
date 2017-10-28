@@ -21,6 +21,10 @@
     border-color: #eee;
 }
 
+.thumbnail{
+    border:none;
+}
+
 body {
     background-image: url("images/soft_wallpaper.png");
     padding-bottom: 100px;
@@ -85,6 +89,14 @@ p{
 #biopic{
     float:left;
     margin: 0px 20px 0px 0px;
+    max-height: 400px;
+    max-width: 200px;
+}
+
+.img-rounded{
+    border: none;
+    margin: 15px 15px 15px 15px;
+    width: 100%;
 }
 
 .lab{
@@ -93,11 +105,12 @@ p{
     font-size: 18px;
 }
 
-#imageone{
+.image{
     position:relative;
+    right:15px;
 }
 
-#linkone{
+.link{
     position: absolute;
     bottom: 15px;
     background-color: #4aaaa5;
@@ -105,62 +118,7 @@ p{
     width: 100%;
     text-align: center;
     padding-top: 2%;
-}
-
-#imagetwo{
-    position:relative;
-}
-
-#linktwo{
-    position: absolute;
-    bottom: 15px;
-    background-color: #4aaaa5;
-    height: 15%;
-    width: 100%;
-    text-align: center;
-    padding-top: 2%;
-}
-
-#imagethree{
-    position:relative;
-}
-
-#linkthree{
-    position: absolute;
-    bottom: 15px;
-    background-color: #4aaaa5;
-    height: 15%;
-    width: 100%;
-    text-align: center;
-    padding-top: 2%;
-}
-
-#imagefour{
-    position:relative;
-}
-
-#linkfour{
-    position: absolute;
-    bottom: 15px;
-    background-color: #4aaaa5;
-    height: 15%;
-    width: 100%;
-    text-align: center;
-    padding-top: 2%;
-}
-
-#imagefive{
-    position:relative;
-}
-
-#linkfive{
-    position: absolute;
-    text-align: center;
-    bottom: 15px;
-    background-color: #4aaaa5;
-    height: 15%;
-    width: 100%;
-    padding-top: 2%;
+    margin: 15px;
 }
 
 .type{
@@ -173,4 +131,34 @@ p{
     background-color: #4aaaa5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-bottom: 40px;
+}
+@media (max-width: 991px){
+    
+   .contentlightbackground1{
+    background-color: #ffffff;
+    padding: 5px 25px 5px 25px;
+    line-height: 30px;
+    margin:10px 10px 20px 10px;
+    width:95%;
+   }
+   
+    .contentlightbackground2{
+    background-color: #ffffff;
+    padding: 5px 25px 5px 25px;
+    line-height: 30px;
+    margin:20px 10px 10px 10px;
+    width:95%;
+    }
+}
+
+@media (max-width:767px){
+    #name{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:360px){
+    #biopic{
+        float: none;
+    }
 }
