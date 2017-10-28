@@ -1,8 +1,4 @@
-body {
-    background-image: url("images/soft_wallpaper.png");
-}
-
-.container-fluid{
+.navi{
     background-color: #ffffff;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
@@ -17,7 +13,6 @@ body {
     background-color: #4aaaa5;
     padding: 30px;
     height: 75px;
-    margin-left: 30px;
 }
 
 #portfoliomenu{
@@ -26,8 +21,13 @@ body {
     border-color: #eee;
 }
 
+body {
+    background-image: url("images/soft_wallpaper.png");
+    padding-bottom: 100px;
+}
+
 .footer{
-    color: #777777;
+    color: #afb2b2;
     text-align: center;
     border-style: solid;
     border-width: 5px 0px 0px 0px;
@@ -36,7 +36,33 @@ body {
     padding: 15px;
 }
 
-#connectwithme{
+.foot{
+    font-size: 15px;
+}
+
+.contenttop{
+    border-width: 0px 0px 3px 0px;
+}
+
+.abouttop{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #4aaaa5;
+}
+
+.contentlightbackground1{
+    background-color: #ffffff;
+    padding: 5px 25px 5px 25px;
+    line-height: 30px;
+    margin: 0px 25px 10px 0px;
+}
+
+.maincontent{
+    padding-bottom: 30px;
+}
+
+.connectwithme{
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
@@ -44,7 +70,107 @@ body {
     color: #4aaaa5;
 }
 
-.contentlightbackground{
+.contentlightbackground2{
     background-color: #ffffff;
     padding: 5px 25px 5px 25px;
+    line-height: 30px;
+    margin: 0px 0px 10px 35px;
+}
+
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+#biopic{
+    float:left;
+    margin: 0px 20px 0px 0px;
+}
+
+.lab{
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+}
+
+#imageone{
+    position:relative;
+}
+
+#linkone{
+    position: absolute;
+    bottom: 15px;
+    background-color: #4aaaa5;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#imagetwo{
+    position:relative;
+}
+
+#linktwo{
+    position: absolute;
+    bottom: 15px;
+    background-color: #4aaaa5;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#imagethree{
+    position:relative;
+}
+
+#linkthree{
+    position: absolute;
+    bottom: 15px;
+    background-color: #4aaaa5;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#imagefour{
+    position:relative;
+}
+
+#linkfour{
+    position: absolute;
+    bottom: 15px;
+    background-color: #4aaaa5;
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#imagefive{
+    position:relative;
+}
+
+#linkfive{
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    background-color: #4aaaa5;
+    height: 15%;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.type{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+#submitbutton{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 40px;
 }
