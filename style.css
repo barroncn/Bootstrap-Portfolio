@@ -29,6 +29,7 @@ body {
     background-image: url("images/soft_wallpaper.png");
     padding-bottom: 100px;
     font-size: 18px;
+    padding-top: 100px;
 }
 
 .footer{
@@ -133,32 +134,26 @@ p{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-bottom: 40px;
 }
-@media (max-width: 991px){
+@media screen and (max-width: 991px){
     
    .contentlightbackground1{
-    background-color: #ffffff;
-    padding: 5px 25px 5px 25px;
-    line-height: 30px;
     margin:10px 10px 20px 10px;
     width:95%;
    }
    
     .contentlightbackground2{
-    background-color: #ffffff;
-    padding: 5px 25px 5px 25px;
-    line-height: 30px;
     margin:20px 10px 10px 10px;
     width:95%;
     }
 }
 
-@media (max-width:767px){
+@media screen and (max-width:767px){
     #name{
         margin-left: 10px;
     }
 }
 
-@media (max-width:450px){
+@media screen and (max-width:450px){
     #biopic{
         float: none;
         margin-bottom: 20px;
